@@ -1,0 +1,4 @@
+MOV BX , 0FF1H 
+MOV CX , [4400H]
+SUB BX, CX
+HLT
